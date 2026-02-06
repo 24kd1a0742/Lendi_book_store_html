@@ -1,22 +1,33 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title> Lendi online book store</title>
+    <title>Online Book Store</title>
 </head>
 
-<frameset rows="20,80">
-    
-    <frame src="top.html" name="top">
+<body style="margin:0; padding:0;">
 
-    <frameset cols="15,85">
+<table border="0" width="100%" height="100%">
+   
+    <!-- Top section -->
+    <tr height="20%">
+        <td colspan="2">
+            <iframe src="top.html" name="top" width="100%" height="100%" frameborder="0"></iframe>
+        </td>
+    </tr>
 
-    <frame src="left.html" name="left"></frame>   
-    <frame src="right.html" name="right"></frame>
+    <!-- Bottom section -->
+    <tr height="80%">
+        <!-- Left section -->
+        <td width="20%">
+            <iframe src="left.html" name="left" width="100%" height="100%" frameborder="0"></iframe>
+        </td>
 
-    </frameset>
+        <!-- Right section -->
+        <td width="80%">
+            <iframe src="right.html" name="right" width="100%" height="100%" frameborder="0"></iframe>
+        </td>
+    </tr>
 
-</frameset>
+</table>
 
-
+</body>
 </html>
-
